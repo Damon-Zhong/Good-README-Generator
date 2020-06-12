@@ -1,22 +1,21 @@
 This is a auto-generated README
-# Title
-Title
 # Badge
-badge1
+badge1,badge2
 # Description
 Description of the application
+# Title
+Title
 # TableOfContent
 - Content1
 - Content2
 - Content3
-
+# Installation
+Installaton instructions
 # Usage
 Usage guide
-# Installation
-Installation instructions
 # License
 MIT
 # Contributing
-Contributing instructions
+Conributing instructions
 # Tests
-Testing instructions
+Testing details
