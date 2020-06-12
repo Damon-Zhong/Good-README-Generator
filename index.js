@@ -63,9 +63,9 @@ function writeComplete(err){
     };
 
 function writeToFile( data ){
-    fs.writeFile( 'testingREADME.md', 'This is a auto-generated README' ,writeComplete)
+    fs.writeFile( 'README.md', 'This is a auto-generated README' ,writeComplete)
     Object.keys( data ).forEach( function( key ){
-        fs.appendFile( 'testingREADME.md', `\n#${key}\n${data[key]}`, writeComplete)
+        fs.appendFile( 'README.md', `\n#${key}\n${data[key]}`, writeComplete)
     })
 }
 
